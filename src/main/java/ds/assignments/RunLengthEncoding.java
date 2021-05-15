@@ -15,7 +15,7 @@ public class RunLengthEncoding {
         char[] chars = encode.toCharArray();
         char alphabet = 0;
         StringBuilder sb = new StringBuilder();
-        char nextChar = 0;
+        char nextChar;
         int count = 0;
         for (char c : chars) {
             if (count == 0) {
